@@ -5,10 +5,6 @@ import java.util.List;
 public class OrderService {
 
 
-    public long findById(long id) {
-        return id;
-    }
-
     public boolean isOrderExist(Order order) {
         return false;
     }
@@ -28,5 +24,9 @@ public class OrderService {
     }
 
     public void deleteAllOrders() {
+    }
+
+    public Order findById(long id) {
+        return null;
     }
 }
